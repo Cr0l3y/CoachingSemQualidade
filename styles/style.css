@@ -115,20 +115,23 @@ body {
 
 
 
-.apresentacao_Instaegit{
-    justify-content: center;
-    gap: 16px;
-    display: flex;
-    width: 50%;
-    text-align: center;
-    border-radius: 8px;
-    border: 3px outset var(--cor-terciaria);
-    font-size: 1.5rem;
-    font-weight: 800;
-    padding: 21.5px 0px;
-    text-decoration: none;
-    color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
+.apresentacao_Instaegit {
+    justify-content: center;               /* Centraliza os itens */
+    gap: 16px;                             /* Espaçamento entre os itens */
+    display: flex;                         /* Flexbox para organizar os itens */
+    flex-wrap: wrap;                       /* Permite que os itens quebrem para uma nova linha se necessário */
+    width: 50%;                            /* Largura de 50% do contêiner pai */
+    text-align: center;                    /* Centraliza o texto dentro dos itens */
+    border-radius: 8px;                    /* Bordas arredondadas */
+    border: 3px outset var(--cor-terciaria); /* Borda externa */
+    font-size: 1rem;                       /* Tamanho da fonte */
+    font-weight: 800;                      /* Peso da fonte */
+    padding: 21.5px 0px;                   /* Espaçamento interno (padding) */
+    text-decoration: none;                 /* Remove sublinhado de links */
+    color: var(--cor-secundaria);          /* Cor do texto */
+    font-family: var(--fonte-secundaria);  /* Define a fonte */
+    box-sizing: border-box;                /* Garante que padding e borda sejam incluídos no tamanho do elemento */
+    overflow: hidden;                      /* Esconde qualquer conteúdo que ultrapasse a largura do contêiner */
 }
 
 
